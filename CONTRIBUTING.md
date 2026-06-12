@@ -1,4 +1,4 @@
-# Contributing to {REPO}
+# Contributing to netCDF_to_zarr_scripts
 
 Thank you for your interest in contributing! This document provides guidelines for contributing to the project.
 All contributors are expected to follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
@@ -8,8 +8,8 @@ All contributors are expected to follow our [Code of Conduct](./CODE_OF_CONDUCT.
 1. Fork and clone the repository:
 
 ```bash
-git clone https://github.com/reflective-org/{REPO}.git
-cd {REPO}
+git clone https://github.com/ReflectiveCloud/netCDF_to_zarr_scripts.git
+cd netCDF_to_zarr_scripts
 ```
 
 2. Install
@@ -36,23 +36,12 @@ git checkout -b perf/what-you-optimized      # performance improvement
 git commit -m "Add brief description of change"
 ```
 
-4. Push and open a pull request against the `dev` branch.
+4. Push and open a pull request against the `main` branch.
 
 ## Code Style
 - PEP 8 with 4-space indentation
 - Type hints encouraged for public APIs
 - No enforced formatter yet; please match the surrounding style
-
-## Running Tests
-
--> Instructions on how to run your unit tests.
-
-### Writing Tests
-
-- Tests should live in `tests/` and use [pytest](https://docs.pytest.org/).
-- Shared fixtures and mocks should live in `tests/conftest.py`.
-- Mock any cloud or network calls; tests must run offline.
-- Aim for one test file per source module (e.g. `test_storage.py` for `storage.py`).
 
 ## Reporting Issues
 

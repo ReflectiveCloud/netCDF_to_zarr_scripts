@@ -1,7 +1,7 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 cff-version: 1.2.0
-title: YOUR PROJECT NAME
+title: netCDF_to_zarr_scripts
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -14,8 +14,6 @@ authors:
     post-code: '94105'
     website: 'https://www.reflective.org'
     email: media@reflective.org
-repository-code: 'https://github.com/reflective-org/YOUR_REPO'
-keywords:
-  - YOUR KEYWORDS HERE
+repository-code: 'https://github.com/ReflectiveCloud/netCDF_to_zarr_scripts'
 license: Apache-2.0
 date-released: '' # Add date of release here
